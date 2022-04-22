@@ -6,4 +6,10 @@ You can put each logical change in the staging area with  git add [file] or remo
 
 If you want to make a different version of your product or do experimental changes you can make a new branch with git branch [branchName]. git branch on it's own tells you which branch you are on. to work in a new branch you check it out with git checkout [branchName].
 
+git log --graph --oneline [branchName1] ... [branchNameN] allows you to see the branch structure of your repo. If you are in detached HEAD state and you make a new commit it will not be reachable by any other branch. To make this a new branch use git checkout -b [newBranchName].
+
+Seperate branches are merged by checking out the branch with the name you want for the merged branch and typing git merge [branch1] [branch2]. The order of branches 1 and 2 does not matter. Once merged a branch's parent can be seen with git show [commit_id].
+
+Gits automatic merging saves you time and alerts you to conflicts.
+
 
