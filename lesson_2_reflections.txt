@@ -1,1 +1,9 @@
 When you initialize a repo with git init you create the .git folder which will contain the the mettadata for your commits. It does not create a commit when you run git init.
+
+The staging area is were you put files to be committed you can add and remove files from the staging area that are in your working diectory it allows you to choose what is tracked by git.
+
+You can put each logical change in the staging area with  git add [file] or remove from the staging area with git reset [file]. After you have checked the staging area against the woring directory with git diff or angainst the lasrt commit with git diff --staged you can commit your logical change.
+
+If you want to make a different version of your product or do experimental changes you can make a new branch with git branch [branchName]. git branch on it's own tells you which branch you are on. to work in a new branch you check it out with git checkout [branchName].
+
+
