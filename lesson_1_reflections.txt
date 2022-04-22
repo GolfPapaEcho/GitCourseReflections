@@ -1,0 +1,19 @@
+By highlighting and bring together lines that have been changed it is easy to 
+see the differences in spelling and possible syntax errors. It also tells you
+the line numbers.
+
+When you break something version control makes it easy to fix. It also helps make new changes throughout a file.
+
+It is good to make logical commits one for each logical change. So if you have a typo and a bug to fix there should be one commit for each.
+
+Manual commits allows you to make logiocal changes but you might forget to make a commit. Saving every hour solves this problem (eg google docs).
+
+Git tracks  multiple files in each commit which is great for coding where you have related changes across multiple files. Google docs treats each file seperately because people use one file for one purpose.
+
+YOU DON'T NEED TO MAKE A NEW SUBFOLDER WHEN CLONING A REPO! Git does that for you.
+
+git log lists all commits in a repo and git diff allows you to compare two commits.
+
+Git allows you to easily revert to a prior version thus enabling you to be more confidant with making changes that might break something.
+
+I want to use git for version control in all my programming work and for LateX.

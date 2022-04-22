@@ -1,0 +1,1 @@
+When you initialize a repo with git init you create the .git folder which will contain the the mettadata for your commits. It does not create a commit when you run git init.
