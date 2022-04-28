@@ -1,2 +1,17 @@
 When would you want to use a remote repository rather than keeping all your work local?
 A remote repo allows you to share your code so others may work on it also it is good to have a backup in the cloud.
+
+You want to pull changes manually because someone elses work might interupt your own and you might want to pull the right logical change on a branch.
+
+
+You make a branch when you want to fix a bug or add a feature without altering the main branch, when your code is production level you can then merge with the main branch. You can clone a repo from a remote to work on on your local computer. You can also clone a repo from your local machine to your local machine. You fork a repo when you want your own version and automatically give credit to the forked repo's owner.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows you to collaberate with others and resolve merge conflicts. git fetch allows you to see what everybody else has been working on. git fetch creates a new branch locally to merge it do git pull or git merge. A fast forward is when you move a commit name reachable from the tip of the branch to the tip of the branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Tasks the require soft skills would be fine but coding would be a nightmare! Git and GitHub make coding much easier to colaberate on with branches, forks, and pull requests.
+
+
