@@ -14,4 +14,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 Tasks the require soft skills would be fine but coding would be a nightmare! Git and GitHub make coding much easier to colaberate on with branches, forks, and pull requests.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you want to fix a bug or work on a new feature creating a branch is a great idea, then you can make pull requests on your branch and get feedback on your work from collaborators and when you have resoled all conflicts merge your pull request.
+
 
