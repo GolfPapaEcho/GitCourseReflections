@@ -19,3 +19,6 @@ When would you want to make changes in a separate branch rather than directly in
 When you want to fix a bug or work on a new feature creating a branch is a great idea, then you can make pull requests on your branch and get feedback on your work from collaborators and when you have resoled all conflicts merge your pull request.
 
 
+When you make a pull request on a fork be sure to do it on your local copy not the repo you forked from.
+
+
